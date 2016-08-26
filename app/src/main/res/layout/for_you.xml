@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_for"
+        android:text="Your&apos;s Choice"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textColor="@color/teal_900"
+        android:shadowColor="#2b2b2b"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/for_you_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:clickable="true"
+        android:layout_below="@+id/newtext"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:nestedScrollingEnabled="true"/>
+
+</LinearLayout>

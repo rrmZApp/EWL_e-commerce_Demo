@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Shop"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Shop" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cart" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Most Popular">
+            <menu>
+                <item
+                    android:id="@+id/nav_new"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="What's New?" />
+                <item
+                    android:id="@+id/nav_top"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Top Selling" />
+            </menu>
+        </item>
+    </group>
+
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_laptop"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Laptop &amp; Desktop" />
+            <item
+                android:id="@+id/nav_accesories"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Accessories" />
+
+            <item
+                android:id="@+id/nav_homeapp"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Home Appliances" />
+            <item
+                android:id="@+id/nav_kitapp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kitchen Appliances" />
+            <item
+                android:id="@+id/nav_theater"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Home Theater" />
+            <item
+                android:id="@+id/nav_mobile"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mobiles &amp; Tabs" />
+        </menu>
+    </item>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share with Friends" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Account Settings" />
+
+</menu>
